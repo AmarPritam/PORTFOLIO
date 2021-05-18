@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" type="text/css" href="media.css" media="(max-width: 750px)">
+</head>
+
+<body>
+    <div class="subscribe">
+        <span class="subs"><i class="fas fa-times"></i></span>
+        <p>•Want Video Tutorials.<br> •Subscribe to my Youtube Channel CODER BOY<br>
+        
+        •LINK:- <a class="channel" href="https://youtube.com/channel/UCLpQnGp5J5Gs_KyU0mHYGbg?=sub_confirmation=1/">CODER BOY</a><br>
+        •HTML<br>
+        •CSS<br>
+        •JAVASCRIPT<br>
+        </p>
+    </div>
+    <div class="loadder">
+        <div style="--i:0;"></div>
+        <div style="--i:1;"></div>
+        <div style="--i:2;"></div>
+        <div style="--i:3;"></div>
+        <div style="--i:4;"></div>
+    </div>
+    <div class="btn" id="btn">
+        <span><i class="fas fa-bars"></i></span>
+    </div>
+    <div class="dark">
+        <img id="icon" src="moon.png" />
+    </div>
+    <div class="side_bar" id="sidebar">
+        <div class="title">
+            <div class="logo">CoderBoy</div>
+        </div>
+        <ul>
+            <li id="li" class="active"><a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+            <li id="li"><a href="#about"><i class="fas fa-user"></i>About</a></li>
+            <li id="li"><a href="#services"><i class="fas fa-sliders-h"></i>Services</a></li>
+            <li id="li"><a href="#experience"><i class="fas fa-id-card"></i>Experience</a></li>
+            <li id="li"><a href="#recent"><i class="fas fa-laptop-code"></i>Works</a></li>
+            <li id="li"><a href="#pricing"><i class="fas fa-tags"></i>Pricing</a></li>
+            <li id="li"><a href="#clients"><i class="fas fa-users"></i>Clients</a></li>
+            <li id="li"><a href="#blogs"><i class="fas fa-file-code"></i>Blogs</a></li>
+            <li id="li"><a href="#contact"><i class="fas fa-phone-volume"></i>Contact</a></li>
+        </ul>
+        <div class="media_icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <section id="home" class="home">
+        <div class="container">
+            <!-- intro -->
+            <div class="intro">
+                <!-- avatar image -->
+                <img class="photo" src="avatar-1.svg" alt="amar" />
+                <!-- info -->
+                <h1 class="name">Coder Bro</h1>
+                <span>I'm a Web-Developer</span>
+                <!-- buttons -->
+                <div class="con">
+                    <a href="#contact" class="contact">Hire me</a>
+                </div>
+                <a class="music" onclick="toggle()" href="#"><i class="fas fa-play"></i></a>
+            </div>
+            <!-- scroll down mouse wheel -->
+            <div class="up">
+                <a href="#home"><i class="fas fa-arrow-up icon"></i></a>
+            </div>
+            <!-- parallax layers -->
+            <div class="parallax" data-relative-input="true">
+                <svg width="27" height="29" data-depth="0.3" class="layer p1" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.15625.60099c4.37954 3.67487 6.46544 9.40612 5.47254 15.03526-.9929 5.62915-4.91339 10.30141-10.2846 12.25672-5.37122 1.9553-11.3776.89631-15.75715-2.77856l2.05692-2.45134c3.50315 2.93948 8.3087 3.78663 12.60572 2.22284 4.297-1.5638 7.43381-5.30209 8.22768-9.80537.79387-4.50328-.8749-9.08872-4.37803-12.02821L21.15625.60099z" fill="#FFD15C" fill-rule="evenodd" /></svg>
+                <svg width="26" height="26" data-depth="0.2" class="layer p2" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 3.3541L2.42705 24.5h21.1459L13 3.3541z" stroke="#FF4C60" stroke-width="3" fill="none" fill-rule="evenodd" /></svg>
+                <svg width="30" height="25" data-depth="0.3" class="layer p3" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M.1436 8.9282C3.00213 3.97706 8.2841.92763 14.00013.92796c5.71605.00032 10.9981 3.04992 13.85641 8 2.8583 4.95007 2.8584 11.0491-.00014 16.00024l-2.77128-1.6c2.28651-3.96036 2.28631-8.84002.00011-12.8002-2.2862-3.96017-6.5124-6.40017-11.08513-6.4-4.57271.00018-8.79872 2.43984-11.08524 6.4002l-2.77128-1.6z" fill="#44D7B6" fill-rule="evenodd" /></svg>
+                <svg width="15" height="23" data-depth="0.6" class="layer p4" xmlns="http://www.w3.org/2000/svg">
+                    <rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#FFD15C" fill-rule="evenodd" /></svg>
+                <svg width="15" height="23" data-depth="0.2" class="layer p5" xmlns="http://www.w3.org/2000/svg">
+                    <rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd" /></svg>
+                <svg width="49" height="17" data-depth="0.5" class="layer p6" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#FF4C60" fill-rule="evenodd">
+                        <path d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z" />
+                        <path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z" />
+                    </g>
+                </svg>
+                <svg width="26" height="26" data-depth="0.4" class="layer p7" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z" stroke="#FFD15C" stroke-width="3" fill="none" fill-rule="evenodd" /></svg>
+                <svg width="19" height="21" data-depth="0.3" class="layer p8" xmlns="http://www.w3.org/2000/svg">
+                    <rect transform="rotate(-40 6.25252 10.12626)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd" /></svg>
+                <svg width="30" height="25" data-depth="0.3" data-depth-y="-1.30" class="layer p9" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z" fill="#6C6CE5" fill-rule="evenodd" /></svg>
+                <svg width="47" height="29" data-depth="0.2" class="layer p10" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#44D7B6" fill-rule="evenodd">
+                        <path d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z" />
+                        <path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z" />
+                    </g>
+                </svg>
+                <svg width="33" height="20" data-depth="0.5" class="layer p11" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32.36774.34317c.99276 5.63023-1.09332 11.3614-5.47227 15.03536-4.37895 3.67396-10.3855 4.73307-15.75693 2.77837C5.76711 16.2022 1.84665 11.53014.8539 5.8999l3.15139-.55567c.7941 4.50356 3.93083 8.24147 8.22772 9.8056 4.29688 1.56413 9.10275.71673 12.60554-2.2227C28.34133 9.98771 30.01045 5.4024 29.21635.89884l3.15139-.55567z" fill="#FFD15C" fill-rule="evenodd" /></svg>
+            </div>
+        </div>
+    </section>
+    <div class="popup" id="popup">
+        <a id="pause" preload="metadata" class="pause" onclick="playpause()" onloadedmetadata="mDur()" ontimeupdate="mPlay()"><i class="fas fa-play"></i></a>
+        <img class="cirecle" src="avat#ar-3.svg" />
+        <a class="cross" onclick="toggle()"><i class="fas fa-times"></i></a>
+        <div class="drag" id="drag"></div>
+        <div id="seekbar">
+            <input type="range" onchange="mSet()" id="seek" value="0" min="0" step="0.25"/>
+        </div>
+    </div>
+    <!--===========About Section=======================================-->
+    <section id="about" class="about">
+        <hr class="line" />
+        <div class="h2">About Me</div>
+        <div class="content">
+            <div class="image">
+                <img class="" src="avatar-2.svg" />
+            </div>
+            <div class="text">
+                <div class="all block">
+                    <div class="arrow">
+                    <span class="left"><i class="fas fa-caret-left"></i></span>
+                    </div>
+                    <p>I am Animation Bro, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
+                    <div class="download">
+                        <a href="https://drive.google.com/uc?export=download&id=1jlg4zUxU6JzJmVTTuL1nqR9djD5wKUdP">Download C.V.</a>
+                    </div>
+                </div>
+                <div class="bar block">
+                    <div class="one">
+                        <span class="type">Developer</span>
+                        <span class="per">85%</span><br>
+                        <span class="lines"></span>
+                    </div>
+                    <div class="two">
+                        <span class="type">UI/UX DESIGN</span>
+                        <span class="per">65%</span><br>
+                        <span class="lines"></span>
+                    </div>
+                    <div class="three">
+                        <span class="type">Developer</span>
+                        <span class="per">85%</span><br>
+                        <span class="lines"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="coffee">
+            <div class="complete">
+                <h1>987</h1>
+                <span>Projects Completed</span>
+            </div>
+            <div class="satis">
+                <h1>434</h1>
+                <span>Satisfied customers</span>
+            </div>
+            <div class="cup">
+                <h1>272</h1>
+                <span>Cup of Coffee</span>
+            </div>
+            <div class="winner">
+                <h1>62</h1>
+                <span>Nominees Winner</span>
+            </div>
+        </div>
+    </section>
+    <!--===========SERVICES SECTION=================================-->
+    <section class="services" id="services">
+        <hr class="line" />
+        <div class="h2">Services</div>
+        <div class="boxes">
+            <div class="box box-one tilt">
+                <img src="service-1.svg" />
+                <h3>UI/UX DESIGN</h3>
+                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+            </div>
+            <div class="box box-two tilt">
+                <img src="service-2.svg" />
+                <h3>WEB/APP-DEVELOP</h3>
+                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+            </div>
+            <div class="box box-three tilt">
+                <img src="service-3.svg" />
+                <h3>PHOTOGRAPHY</h3>
+                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+            </div>
+        </div>
+        <p class="job">Looking for a custom job. <a href="#contact">Click Here</a></p>
+    </section>
+    <!--===========EXPERIENCE SECTION=================================-->
+    <section class="experience" id="experience">
+        <hr class="line" />
+        <div class="h2">Experience</div>
+        <div class="boxes">
+            <div class="box box-one tilt">
+                <hr class="lines" />
+                <span class="icon"><i class="fas fa-circle"></i></span>
+                <span class="time">2019 - Present</span>
+                <h3 class="title">Academic Degree</h3>
+                <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                <span class="icon"><i class="fas fa-circle"></i></span>
+                <span class="time">2019 - Present</span>
+                <h3 class="title">Academic Degree</h3>
+                <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                <span class="icon"><i class="fas fa-circle"></i></span>
+                <span class="time">2019 - Present</span>
+                <h3 class="title">Academic Degree</h3>
+                <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="box box-two tilt">
+                <hr class="lines" />
+                <span class="icon"><i class="fas fa-circle"></i></span>
+                <span class="time">2019 - Present</span>
+                <h3 class="title">Academic Degree</h3>
+                <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                <span class="icon"><i class="fas fa-circle"></i></span>
+                <span class="time">2019 - Present</span>
+                <h3 class="title">Academic Degree</h3>
+                <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                <span class="icon"><i class="fas fa-circle"></i></span>
+                <span class="time">2019 - Present</span>
+                <h3 class="title">Academic Degree</h3>
+                <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+        </div>
+    </section>
+    <!--===========RECENT WORK SECTION=================================-->
+    <section class="recent" id="recent">
+        <hr class="line" />
+        <div class="h2">Recent Works</div>
+        <div class="h3">Everything</div>
+        <div class="boxes">
+            <div class="box">
+                <span><a href="#">Portfolio Title</a></span>
+            </div>
+            <div class="box">
+                <span><a href="#">Portfolio Title</a></span>
+            </div>
+            <div class="box">
+                <span><a href="#">Portfolio Title</a></span>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <span><a href="#">Portfolio Title</a></span>
+            </div>
+            <div class="box">
+                <span><a href="#">Portfolio Title</a></span>
+            </div>
+            <div class="box">
+                <span><a href="#">Portfolio Title</a></span>
+            </div>
+        </div>
+    </section>
+    <!--===========PRICING TABLE SECTION=================================-->
+    <section class="pricing" id="pricing">
+        <hr class="line" />
+        <div class="h2">Pricing Plans</div>
+        <div class="boxes">
+            <div class="box box-one tilt">
+                <img src="price-1.svg" alt="Regular" />
+                <h2 class="plan">Basic</h2>
+                <p>A Simple option but powerful to manage your business</p>
+                <p>Email support</p>
+                <h3 class="price"><small>$</small>9<br>Month</h3>
+                <a href="#pricing">Get Started</a>
+            </div>
+            <div class="box box-two tilt">
+                <div class="badges">
+                    <span class="badge">Recommended</span>
+                </div>
+                <img src="price-2.svg" />
+                <h2 class="plan">Premium</h2>
+                <p>Unlimited product including apps integrations and more features</p>
+                <p>Mon-Fri support</p>
+                <h3 class="price"><small>$</small>9<br>Month</h3>
+                <a href="#pricing">Get Started</a>
+            </div>
+            <div class="box box-three tilt">
+                <img src="price-3.svg" />
+                <h2 class="plan">Ultimate</h2>
+                <p>A wise option for large companies and individuals</p>
+                <p>24/7 support</p>
+                <h3 class="price"><small>$</small>9<br>Month</h3>
+                <a href="#pricing">Get Started</a>
+            </div>
+        </div>
+    </section>
+    <!--===========CLIENTS AND REVIEWS SECTION=================================-->
+    <section class="clients" id="clients">
+        <hr class="line" />
+        <div class="h2">Clients & Reviews</div>
+        <div class="boxes">
+            <img src="avatar-3.svg" /><br>
+            <span class="title">Product designer at Dribbble</span>
+            <div class="box one tilt">
+                <span class="left"><i class="fas fa-caret-up"></i></span><br>
+                <p class="p">I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍</p>
+            </div>
+        </div>
+        <div class="review">
+            <img src="client-1.svg" />
+            <img src="client-2.svg" />
+            <img src="client-3.svg" />
+            <img src="client-4.svg" /><br>
+            <img src="client-5.svg" />
+            <img src="client-6.svg" />
+            <img src="client-7.svg" />
+            <img src="client-8.svg" />
+        </div>
+    </section>
+    <!--===========Blogs SECTION=================================-->
+    <section class="blogs" id="blogs">
+        <hr class="line" />
+        <div class="h2">Blogs</div>
+        <div class="boxes">
+            <div class="box tilt">
+                <span class="title">How to develop a App</span><br>
+                <span class="date">27 Nov. 2019 •Amar</span>
+            </div>
+            <div class="box tilt">
+                <span class="title">How to develop a Web</span><br>
+                <span class="date">27 Nov. 2019 •Amar</span>
+            </div>
+            <div class="box tilt">
+                <span class="title">How to design a App</span><br>
+                <span class="date">27 Nov. 2019 •Amar</span>
+            </div>
+        </div>
+    </section>
+    <!--===========Contact SECTION=================================-->
+    <section class="contact" id="contact">
+        <hr class="line" />
+        <div class="h2">Contact Me</div>
+        <div class="boxes">
+            <div class="talks">
+                <div class="talk">Let's Talk Everything</div>
+                <div class="forms">Don't like forms. Send me an <a href="#contact">email.</a>👋</div>
+            </div>
+            <div class="box">
+                <input type="text" placeholder="Name" /><br>
+                <input type="text" placeholder="Email" /><br>
+                <input type="text" placeholder="Subject" /><br>
+                <textarea rows="8" cols="40" placeholder="Message"></textarea>
+                <a href="#contact">Submit</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <hr class="line" />
+        <div class="foot">Copyright &copy @2021. All Rights Reserved. Amar Pritam</div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--  <script src="vanilla-tilt.js"></script>-->
+    <script type="text/javascript">
+    /*
+    VanillaTilt.init(document.querySelectorAll("#li, .tilt"), {
+		max: 25,
+		speed: 400,
+		glare: true,
+		"max-glare": 3,
+		reset: true
+	});*/
+    
+    
+    /*
+    
+    dragElement(document.getElementById("myDiv"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    // if present, the header is where you move the DIV from:
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    // otherwise, move the DIV from anywhere inside the DIV:
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+};*/
+    
+    
+    
+    
+    
+        $('.btn').click(function() {
+            $(this).toggleClass("click");
+            $('.side_bar').toggleClass("show");
+        });
+        
+        $('.subs').click(function() {
+            $(this).toggleClass("click");
+            $('.subscribe').toggleClass("show");
+        });
+        
+        $('.drag').click(function() {
+        $(this).toggleClass("click");
+        $('.popup').toggleClass("minimize");
+        });
+        /*
+                
+                const btn = document.getElementById('btn');
+                const sidebar = document.getElementById('sidebar');
+                
+                */
+
+        $(document).on('click', 'ul li', function() {
+            $(this).addClass('active').siblings().removeClass('active')
+        });
+
+
+        var icon = document.getElementById("icon");
+
+        if (localStorage.getItem("theme") == null) {
+            localStorage.setItem("theme", "light");
+        }
+
+
+        let localData = localStorage.getItem("theme");
+        if (localData == "light") {
+            icon.src = "moon.png";
+            document.body.classList.remove("dark-theme");
+        }
+
+        else if (localData == "dark") {
+            icon.src = "sun.png";
+            document.body.classList.add("dark-theme");
+        }
+
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                icon.src = "sun.png";
+                localStorage.setItem("theme", "dark");
+            }
+            else {
+                icon.src = "moon.png";
+                localStorage.setItem("theme", "light")
+            }
+        }
+        setTimeout(function() {
+            $('.loader').fadeToggle();
+        }, 1500);
+
+
+        document.onclick = function(e) {
+            if (e.target.id !== 'side_bar' && e.target.id !== 'btn')
+            {
+                btn.classList.remove('show')
+                    .side_bar.classList.remove('show');
+            }
+        };
+
+        /*Audio*/
+        var song = new Audio;
+        var muted = false;
+        var vol = 1;
+        song.type = 'audio/mpeg';
+        song.src = 'audio.mp3'; //Audio file source url
+        function playpause() {
+            if (!song.paused) {
+                song.pause();
+            } else {
+                song.play();
+            }
+        var aud= document.getElementById('pause')
+        var dur= document.getElementById('seek')
+        function mDur(){dur.max= aud.duration}
+        function mPlay(){dur.value=aud.currentTime}
+        function mSet(){aud.currentTime=dur.value}
+        };
+
+        function toggle() {
+            var blur = document.getElementById('home');
+            blur.classList.toggle('pop');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('pop')
+        };
+        
+        function setPos(pos){
+            song.currentTime = pos;
+        }
+
+
+        /*Draggabke music*/
+        
+
+// Make the DIV element draggable:
+window.onload = function(){
+    setTimeout(function(){
+        subscribe.style.display = "block"
+    }, 5000);
+}
+
+    </script>
+    <script src="drag.js">
+        
+    </script>
+</body>
+
+</html>

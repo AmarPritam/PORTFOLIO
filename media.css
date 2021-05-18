@@ -1,0 +1,195 @@
+#about{
+    height: 150vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    
+}
+
+#about .line{
+    top: 0;
+}
+
+#about .h2{
+    padding-top: 0;
+    top: 0;
+}
+
+#about .image{
+    position: absolute;
+    left: 35%;
+    transform: translateX(-50%);
+    top: 1%;
+}
+
+#about .content{
+    display: block;
+    flex-direction: row;
+    height: auto;
+    max-width: 325px;
+}
+
+.text{
+    display: flex;
+    top: 20%;
+    max-width: 325px;
+    height: 450px;
+    padding-bottom: -100px;
+}
+
+
+.text .all .arrow{
+    transform: rotate(90deg);
+    top: -12%;
+    left: 50%;/*
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);*/
+    
+}
+
+#services{
+    height: 150vh;
+}
+
+#services .boxes{
+    display: block;
+}
+
+#services .boxes .box{
+    margin-bottom: 40px;
+}
+
+#services .line{
+    top: 0;
+}
+
+
+.text .bar{
+    top: 20%;
+    left: 5%;
+    margin-top: 100px; 
+}
+
+
+.coffee{
+    display: block;
+    left: 30%;
+    transform: translateX(-50%);
+    top: 50%;
+}
+
+.complete, .satis, .cup, .winner{
+    display: flex;
+    max-width: 125px;
+    flex-direction: column;
+    flex-basis: 1;
+}
+
+.services .boxes{
+    display: grid;
+    grid-column: 1;
+}
+
+.services .boxes .box{
+    width: 320px;
+}
+
+.services .h2{
+    top: 0;
+}
+
+
+#experience{
+    height: 170vh;
+}
+
+#experience .boxes{
+    display: block;
+}
+
+#experience .boxes .box{
+    width: 85%;
+    margin-bottom: 40px;
+}
+
+#recent{
+    height: 80vh;
+}
+
+#recent .boxes{
+    display: block;
+}
+
+#recent .boxes .box{
+    width: 80%;
+    
+}
+
+#pricing{
+    height: 200vh;
+}
+
+#pricing .boxes{
+    display: block;
+}
+
+#pricing .boxes .box{
+    width: 85%;
+}
+
+
+#pricing .boxes .box-one{
+    margin-bottom: 70px;
+}
+
+#pricing .boxes .box-two{
+    margin-left: 25px;
+}
+
+#pricing .boxes .box-three{
+    margin-left: 25px;
+}
+
+#clients{
+    height: 240vh;
+}
+
+
+#clients .boxes .box .left{
+    top: -10%;
+}
+
+#blogs{
+    height: 100vh;
+}
+
+#blogs .boxes{
+    display: block;
+}
+
+#blogs .boxes .box{
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+#contact{
+    height: 110vh;
+}
+
+#contact .boxes{
+    display: block;
+}
+
+#contact .boxes .talks{
+    margin-bottom: 30px;
+}
+
+#contact .boxes .box{
+    width: 92%;
+    margin-left: 25px;
+}
+
+footer .foot{
+    font-size: 10px;
+}
